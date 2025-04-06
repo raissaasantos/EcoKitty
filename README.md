@@ -54,13 +54,13 @@ git clone https://github.com/raissaasantos/EcoKitty.git
 
 ---
 
-## ✍️ Desenvolvedor
+## 💻 Desenvolvedor
 
 **Raissa De Assis Santos**  
 [LinkedIn](https://www.linkedin.com/in/raissasantos7) | [GitHub](https://github.com/raissaasantos)
 
 **Camila Santina Lima**  
-[LinkedIn](https://www.linkedin.com/in/raissaasantos7) | [GitHub](https://github.com/Camila131)
+[LinkedIn](https://www.linkedin.com/in/camilasantinalima/) | [GitHub](https://github.com/Camila131)
 
 ---
 
