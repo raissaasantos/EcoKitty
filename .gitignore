@@ -1,0 +1,71 @@
+# =============== #
+# Unity generated #
+# =============== #
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+UserSettings/
+
+# =============== #
+# OS generated    #
+# =============== #
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =============== #
+# IDEs            #
+# =============== #
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+
+# =============== #
+# Git LFS         #
+# =============== #
+# (se usar LFS, remova comentários e ajuste conforme necessário)
+# *.png
+# *.jpg
+# *.fbx
+# *.mp3
+# *.wav
+# *.psd
+# *.unity
+# *.prefab
+
+# =============== #
+# Auto saves      #
+# =============== #
+*.autosave
+
+# Crashlytics
+crashlytics-build.properties
