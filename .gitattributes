@@ -1,0 +1,4 @@
+*.cs linguist-language=C#
+*.meta linguist-generated
+*.asset linguist-generated
+ProjectSettings/* linguist-generated
