@@ -71,7 +71,4 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 ---
 
 > “Grandes jogos começam com grandes ideias – e às vezes, com um gatinho e uma lixeira.” 😺
-```
-
----
 
