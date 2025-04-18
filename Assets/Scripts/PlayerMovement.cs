@@ -4,10 +4,13 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed;
     private Rigidbody2D body;
+    private Animator anim;
 
     private void Awake()
     {
-        body = GetComponent<Rigidbody2D>();
+        //Grab references for rigigbody and animator from object
+        body = GetComponent<Rigidbody2D>(); 
+        anim = GetComponent<Animator>();
 
     }
 
@@ -30,5 +33,8 @@ public class PlayerMovement : MonoBehaviour
         {
             body.linearVelocity = new Vector2(body.linearVelocity.x, speed);
         }
+
+        //Set animator parameters
+        anim.SetBool("running", horizontalInput != 0);
     }
 }
