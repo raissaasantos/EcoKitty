@@ -1,7 +1,9 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public FixedJoystick joystickMovement;
     [SerializeField] private float speed;
     private Rigidbody2D body;
     private Animator anim;
@@ -17,8 +19,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        body.linearVelocity = new Vector2 (horizontalInput * speed, body.linearVelocity.y);
+        //float horizontalInput = Input.GetAxis("Horizontal");
+        //body.linearVelocity = new Vector2 (horizontalInput * speed, body.linearVelocity.y);
+
+        //Movement with joystick
+        float horizontalInput = joystickMovement.Horizontal;
+        body.linearVelocity = new Vector2(horizontalInput * speed, body.linearVelocity.y);
 
         //Flip player when moving right-left
         if (horizontalInput > 0.01f)
