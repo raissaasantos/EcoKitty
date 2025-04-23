@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d1e6c35164f0c37428da61e04d6a53e5
+guid: 8f05be7a8b6fe534f8ba71cf4cd9ea58
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6994204553290746958
-    second: ChatGPT_Image_22_de_abr._de_2025__02_17_53-removebg-preview_0
+      213: 6654531029377168418
+    second: Jumping_Write_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatGPT_Image_22_de_abr._de_2025__02_17_53-removebg-preview_0
+      name: Jumping_Write_0
       rect:
         serializedVersion: 2
-        x: 87
-        y: 80
-        width: 330
-        height: 341
+        x: 43
+        y: 129
+        width: 124
+        height: 111
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4c805dfbf7601160800000000000000
-      internalID: 6994204553290746958
+      spriteID: 22437d8c6b4a95c50800000000000000
+      internalID: 6654531029377168418
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ChatGPT_Image_22_de_abr._de_2025__02_17_53-removebg-preview_0: 6994204553290746958
+      Jumping_Write_0: 6654531029377168418
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

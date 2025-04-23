@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: cb839c99ff54c9e418466090571620b7
+guid: d32af6207ba165a4ba00ef4bb6bc78ae
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -915601439035961385
-    second: Jumping_Grey_0
+      213: 8687642245872190853
+    second: Walking_white_0
+  - first:
+      213: 7816604231868049431
+    second: Walking_white_1
+  - first:
+      213: 1858428816621066014
+    second: Walking_white_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,11 +145,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jumping_Grey_0
+      name: Walking_white_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 129
+        x: 45
+        y: 251
         width: 124
         height: 111
       alignment: 0
@@ -154,8 +160,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7dfcc6e97512b43f0800000000000000
-      internalID: -915601439035961385
+      spriteID: 58583e0f794b09870800000000000000
+      internalID: 8687642245872190853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking_white_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 128
+        width: 124
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7186f4e72282a7c60800000000000000
+      internalID: 7816604231868049431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking_white_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 9
+        width: 124
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e175c0f89277ac910800000000000000
+      internalID: 1858428816621066014
       vertices: []
       indices: 
       edges: []
@@ -174,7 +224,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Jumping_Grey_0: -915601439035961385
+      Walking_white_0: 8687642245872190853
+      Walking_white_1: 7816604231868049431
+      Walking_white_2: 1858428816621066014
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

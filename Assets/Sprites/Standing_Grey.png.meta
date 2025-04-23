@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: cb839c99ff54c9e418466090571620b7
+guid: 9059fb1515ae9a44484ce42655e46faa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -915601439035961385
-    second: Jumping_Grey_0
+      213: 6609845896897177632
+    second: Standing_Grey_0
+  - first:
+      213: 7737511600306756636
+    second: Standing_Grey_1
+  - first:
+      213: 263479977583973477
+    second: Standing_Grey_2
+  - first:
+      213: -1269788634964760983
+    second: Standing_Grey_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,11 +148,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jumping_Grey_0
+      name: Standing_Grey_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 129
+        x: 45
+        y: 128
         width: 124
         height: 111
       alignment: 0
@@ -154,8 +163,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7dfcc6e97512b43f0800000000000000
-      internalID: -915601439035961385
+      spriteID: 02821a0a2d3eabb50800000000000000
+      internalID: 6609845896897177632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_Grey_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 128
+        width: 124
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c9fbd2ec9216b60800000000000000
+      internalID: 7737511600306756636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_Grey_2
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 5
+        width: 124
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5641255c4a118a300800000000000000
+      internalID: 263479977583973477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_Grey_3
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 5
+        width: 124
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966e811d6fdc06ee0800000000000000
+      internalID: -1269788634964760983
       vertices: []
       indices: 
       edges: []
@@ -174,7 +249,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Jumping_Grey_0: -915601439035961385
+      Standing_Grey_0: 6609845896897177632
+      Standing_Grey_1: 7737511600306756636
+      Standing_Grey_2: 263479977583973477
+      Standing_Grey_3: -1269788634964760983
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
