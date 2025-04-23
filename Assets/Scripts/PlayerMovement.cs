@@ -1,8 +1,11 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public FixedJoystick joystickMovement;
     [SerializeField] private float speed;
+    [SerializeField] private float jumpForce = 10f;
     private Rigidbody2D body;
     private Animator anim;
     private bool grounded;
@@ -17,8 +20,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        body.linearVelocity = new Vector2 (horizontalInput * speed, body.linearVelocity.y);
+        //float horizontalInput = Input.GetAxis("Horizontal");
+        //body.linearVelocity = new Vector2 (horizontalInput * speed, body.linearVelocity.y);
+
+        //Movement with joystick
+        float horizontalInput = joystickMovement.Horizontal;
+        body.linearVelocity = new Vector2(horizontalInput * speed, body.linearVelocity.y);
 
         //Flip player when moving right-left
         if (horizontalInput > 0.01f)
@@ -40,10 +47,16 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("grounded", grounded);
     }
 
-    private void Jump()
+    public void Jump()
     {
-        body.linearVelocity = new Vector2(body.linearVelocity.x, speed);
-        grounded = false;
+        //body.linearVelocity = new Vector2(body.linearVelocity.x, speed);
+        //grounded = false;
+        if (grounded)
+        {
+            body.linearVelocity = new Vector2(body.linearVelocity.x, jumpForce);
+            grounded = false;
+            anim.SetBool("grounded", grounded);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
