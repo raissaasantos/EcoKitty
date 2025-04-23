@@ -248,7 +248,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Standing_Grey_0: 6609845896897177632
+      Standing_Grey_1: 7737511600306756636
+      Standing_Grey_2: 263479977583973477
+      Standing_Grey_3: -1269788634964760983
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

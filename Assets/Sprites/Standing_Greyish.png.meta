@@ -248,7 +248,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Standing_Greyish_0: 3061804060015645011
+      Standing_Greyish_1: -6295823085816447991
+      Standing_Greyish_2: 2649450514744982618
+      Standing_Greyish_3: -4287554260554055502
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

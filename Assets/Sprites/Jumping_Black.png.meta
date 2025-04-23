@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Jumping_Black_0: 6827882913171423546
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

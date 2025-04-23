@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Jumping_Greyish_0: 6019271507774316594
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

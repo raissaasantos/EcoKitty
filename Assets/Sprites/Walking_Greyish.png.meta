@@ -223,7 +223,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Walking_Greyish_0: -7449697429352960758
+      Walking_Greyish_1: -251231107965802025
+      Walking_Greyish_2: -4683666782723282046
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
