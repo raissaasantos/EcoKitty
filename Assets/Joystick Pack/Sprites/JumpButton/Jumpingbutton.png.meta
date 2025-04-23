@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 4284b0eedcacc6249bfc289ad7f0d5a5
+guid: d2be9c7bf5ed9dc4fb71f726e6fe7c90
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7449697429352960758
-    second: Walking_Greyish_0
-  - first:
-      213: -251231107965802025
-    second: Walking_Greyish_1
-  - first:
-      213: -4683666782723282046
-    second: Walking_Greyish_2
+      213: -7538932170850469890
+    second: Jumpingbutton_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -145,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walking_Greyish_0
+      name: Jumpingbutton_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 251
-        width: 124
-        height: 111
+        x: 91
+        y: 102
+        width: 841
+        height: 839
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,52 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a0da64f78ab5d9890800000000000000
-      internalID: -7449697429352960758
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Walking_Greyish_1
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 128
-        width: 124
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d9ab2d63a2738cf0800000000000000
-      internalID: -251231107965802025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Walking_Greyish_2
-      rect:
-        serializedVersion: 2
-        x: 45
-        y: 9
-        width: 124
-        height: 107
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 28b6b7150e5400fb0800000000000000
-      internalID: -4683666782723282046
+      spriteID: ef771b23225506790800000000000000
+      internalID: -7538932170850469890
       vertices: []
       indices: 
       edges: []

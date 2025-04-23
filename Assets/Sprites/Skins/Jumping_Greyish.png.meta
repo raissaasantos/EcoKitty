@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4537b3c2c3789c643bae144fa3fbf5ec
+guid: edf6ece3df98c5b479097618f791319d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6827882913171423546
-    second: Jumping_Black_0
+      213: 6019271507774316594
+    second: Jumping_Greyish_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jumping_Black_0
+      name: Jumping_Greyish_0
       rect:
         serializedVersion: 2
         x: 43
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a31ca87755381ce50800000000000000
-      internalID: 6827882913171423546
+      spriteID: 230a48b7b8fb88350800000000000000
+      internalID: 6019271507774316594
       vertices: []
       indices: 
       edges: []
@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Jumping_Greyish_0: 6019271507774316594
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

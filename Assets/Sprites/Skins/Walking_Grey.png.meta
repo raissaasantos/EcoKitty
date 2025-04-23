@@ -1,19 +1,16 @@
 fileFormatVersion: 2
-guid: db5b2c2a56dfe6141aeb7dddfe38cecb
+guid: eddbf7ae67fdc024bbc399c70dc06afa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3061804060015645011
-    second: Standing_Greyish_0
+      213: -8767993091281851793
+    second: Walking_Grey_0
   - first:
-      213: -6295823085816447991
-    second: Standing_Greyish_1
+      213: 7756473374768916193
+    second: Walking_Grey_1
   - first:
-      213: 2649450514744982618
-    second: Standing_Greyish_2
-  - first:
-      213: -4287554260554055502
-    second: Standing_Greyish_3
+      213: 6933065701953417149
+    second: Walking_Grey_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -148,11 +145,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Standing_Greyish_0
+      name: Walking_Grey_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 131
+        x: 45
+        y: 251
         width: 124
         height: 111
       alignment: 0
@@ -163,18 +160,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 351d4190296bd7a20800000000000000
-      internalID: 3061804060015645011
+      spriteID: f6ae0110db4d15680800000000000000
+      internalID: -8767993091281851793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Standing_Greyish_1
+      name: Walking_Grey_1
       rect:
         serializedVersion: 2
-        x: 233
-        y: 131
+        x: 45
+        y: 128
         width: 124
         height: 111
       alignment: 0
@@ -185,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 90cf439924eb0a8a0800000000000000
-      internalID: -6295823085816447991
+      spriteID: 1e660e4507784ab60800000000000000
+      internalID: 7756473374768916193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Standing_Greyish_2
+      name: Walking_Grey_2
       rect:
         serializedVersion: 2
-        x: 43
-        y: 8
+        x: 45
+        y: 9
         width: 124
-        height: 111
+        height: 107
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,30 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5cb95da43db4c420800000000000000
-      internalID: 2649450514744982618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Standing_Greyish_3
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 8
-        width: 124
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2b08670dd1c8f74c0800000000000000
-      internalID: -4287554260554055502
+      spriteID: dbfa061e582373060800000000000000
+      internalID: 6933065701953417149
       vertices: []
       indices: 
       edges: []
@@ -248,7 +223,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Walking_Grey_0: -8767993091281851793
+      Walking_Grey_1: 7756473374768916193
+      Walking_Grey_2: 6933065701953417149
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

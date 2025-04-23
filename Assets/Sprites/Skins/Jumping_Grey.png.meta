@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: e3499dc2581d49e4886ac62992e54ebc
+guid: 2066f22183cf0b24cb886aff02144e72
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8598109548790086967
-    second: Standing_white_0
-  - first:
-      213: 7570190106752842199
-    second: Standing_white_1
-  - first:
-      213: -7295330296808329753
-    second: Standing_white_2
-  - first:
-      213: 8044808546600039061
-    second: Standing_white_3
+      213: -915601439035961385
+    second: Jumping_Grey_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -148,11 +139,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Standing_white_0
+      name: Jumping_Grey_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 139
+        x: 36
+        y: 129
         width: 124
         height: 111
       alignment: 0
@@ -163,74 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9c2097c8be06da880800000000000000
-      internalID: -8598109548790086967
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Standing_white_1
-      rect:
-        serializedVersion: 2
-        x: 217
-        y: 139
-        width: 124
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7d9fd232bc7be0960800000000000000
-      internalID: 7570190106752842199
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Standing_white_2
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 11
-        width: 124
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7ed28935fb7c1ca90800000000000000
-      internalID: -7295330296808329753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Standing_white_3
-      rect:
-        serializedVersion: 2
-        x: 217
-        y: 11
-        width: 124
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5923f1affb6e4af60800000000000000
-      internalID: 8044808546600039061
+      spriteID: 7dfcc6e97512b43f0800000000000000
+      internalID: -915601439035961385
       vertices: []
       indices: 
       edges: []
@@ -248,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Jumping_Grey_0: -915601439035961385
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
