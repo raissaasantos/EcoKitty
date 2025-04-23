@@ -26,7 +26,8 @@ Seu objetivo é **coletar materiais recicláveis**, **desviar de obstáculos** e
 
 ## 📸 Capturas de tela
 
-> *(imagens jogo)*
+> *![Captura de tela 2025-04-22 211203](https://github.com/user-attachments/assets/0a274d55-27c0-4d30-bcad-9a61eab2e7ac)
+*
 
 ---
 
