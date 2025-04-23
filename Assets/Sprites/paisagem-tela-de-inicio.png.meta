@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      paisagem-tela-de-inicio_0: 1664466897305342388
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
