@@ -69,3 +69,7 @@ desktop.ini
 
 # Crashlytics
 crashlytics-build.properties
+
+# Visual Studio folder
+.vs/
+

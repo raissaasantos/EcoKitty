@@ -1,5 +1,17 @@
 fileFormatVersion: 2
-guid: 109e9bdd0fcc649c5bc59085c35bdc83
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/Animations.meta
+guid: cf3b5e72ca431e449b80897917a93fb6
+=======
+guid: b90e53b7e50acda4d9ccf3401c5b2beb
+>>>>>>> f8c02d8dc90951e1648943cbe4016c546925b3f0:Assets/Scenes.meta
+=======
+<<<<<<<< HEAD:Assets/Sprites/Garbage.meta
+guid: 206e80b42e086c74d9b09384f703787b
+========
+guid: b90e53b7e50acda4d9ccf3401c5b2beb
+>>>>>>>> f8c02d8dc90951e1648943cbe4016c546925b3f0:Assets/Scenes.meta
+>>>>>>> f8c02d8dc90951e1648943cbe4016c546925b3f0
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
