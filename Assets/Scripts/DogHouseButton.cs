@@ -2,14 +2,21 @@ using UnityEngine;
 
 public class DogHouseButton : MonoBehaviour
 {
-    public GameObject shopPanel; // arraste o painel da loja aqui pelo Inspector
+    public GameObject shopPanel;
 
-    // Este método será chamado quando clicar no botão
     public void OpenShop()
     {
         if (shopPanel != null)
         {
             shopPanel.SetActive(true);
+        }
+    }
+
+    public void CloseShop()
+    {
+        if (shopPanel != null)
+        {
+            shopPanel.SetActive(false);
         }
     }
 }
