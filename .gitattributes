@@ -1,6 +1,29 @@
+# ========================
+# Linguist: forçar C# como linguagem principal
+# ========================
 *.cs linguist-language=C#
-*.meta linguist-generated
-*.asset linguist-generated
 *.m linguist-language=C#
 *.nb linguist-language=C#
+
+# ========================
+# Marcar arquivos que o GitHub deve ignorar como "generated"
+# ========================
+
+# Unity config and metadata
+*.meta linguist-generated
+*.asset linguist-generated
+*.anim linguist-generated
+*.controller linguist-generated
 ProjectSettings/* linguist-generated
+Packages/* linguist-generated
+
+# Shader stuff
+*.shader linguist-generated
+*.cginc linguist-generated
+*.hlsl linguist-generated
+*.mat linguist-generated
+
+# Optional: JSON ou YAML configs
+*.json linguist-generated
+*.yaml linguist-generated
+
