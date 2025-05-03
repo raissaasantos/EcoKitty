@@ -3,6 +3,7 @@
 # ========================
 *.cs linguist-language=C#
 *.m linguist-language=C#
+*.m linguist-generated
 *.nb linguist-language=C#
 
 # ========================
