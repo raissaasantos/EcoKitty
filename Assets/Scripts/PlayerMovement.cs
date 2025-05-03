@@ -37,10 +37,10 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector3(-1.5f, 1.5f, 1.5f);
         }
 
-        if (Input.GetKey(KeyCode.Space) && grounded)
-        {
-            Jump();
-        }
+        // if (Input.GetKey(KeyCode.Space) && grounded)
+        //{
+       //     Jump();
+        //}
 
         //Set animator parameters
         anim.SetBool("running", horizontalInput != 0);
@@ -61,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.CompareTag("Ground"))
         {
             grounded = true;
         }
