@@ -14,7 +14,7 @@ TagManager:
   - UI
   - Background
   - Ground
-  - 
+  - Garbage
   - 
   - 
   - 
@@ -50,6 +50,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1075495341
+    locked: 0
+  - name: Garbage
+    uniqueID: 913810715
     locked: 0
   m_RenderingLayers:
   - Default

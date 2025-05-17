@@ -139,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ChatGPT_Image_22_de_abr._de_2025__02_30_57-removebg-preview_0
+      name: GlassBottle
       rect:
         serializedVersion: 2
         x: 200
@@ -147,7 +147,7 @@ TextureImporter:
         width: 100
         height: 271
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -164,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 97d455941ee5221419ebd9e444361fe6
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ChatGPT_Image_22_de_abr._de_2025__02_30_57-removebg-preview_0: 1787744630682949256
+      GlassBottle: 1787744630682949256
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
