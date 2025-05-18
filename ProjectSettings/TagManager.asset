@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
+  - Garbage
+  - Trap
   layers:
   - Default
   - TransparentFX
@@ -15,7 +17,7 @@ TagManager:
   - Background
   - Ground
   - Garbage
-  - 
+  - Trap
   - 
   - 
   - 
@@ -53,6 +55,9 @@ TagManager:
     locked: 0
   - name: Garbage
     uniqueID: 913810715
+    locked: 0
+  - name: Trap
+    uniqueID: 4114290815
     locked: 0
   m_RenderingLayers:
   - Default

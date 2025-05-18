@@ -66,4 +66,14 @@ public class PlayerMovement : MonoBehaviour
             grounded = true;
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Garbage"))
+        {
+            // The object we collided with has the "Garbage" tag
+            GarbageCounter.Instance.AddGarbage();
+            Destroy(other.gameObject);  
+        }
+    }
 }
