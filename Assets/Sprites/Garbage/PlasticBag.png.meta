@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b18bdd76287d4724a80911d95608c23a
+guid: cb839c99ff54c9e418466090571620b7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4860508517914281758
-    second: ChatGPT_Image_22_de_abr._de_2025__02_27_53-removebg-preview_0
+      213: -915601439035961385
+    second: Jumping_Grey_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,17 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< HEAD
       name: PlasticBag
+=======
+      name: Jumping_Grey_0
+>>>>>>> ebc2986f7753c4b68c8e3f12a65a659b91cdb8d9
       rect:
         serializedVersion: 2
-        x: 165
-        y: 135
-        width: 170
-        height: 230
+        x: 36
+        y: 129
+        width: 124
+        height: 111
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e178a06bebef37340800000000000000
-      internalID: 4860508517914281758
+      spriteID: 7dfcc6e97512b43f0800000000000000
+      internalID: -915601439035961385
       vertices: []
       indices: 
       edges: []
@@ -174,7 +178,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< HEAD
       PlasticBag: 4860508517914281758
+=======
+      Jumping_Grey_0: -915601439035961385
+>>>>>>> ebc2986f7753c4b68c8e3f12a65a659b91cdb8d9
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

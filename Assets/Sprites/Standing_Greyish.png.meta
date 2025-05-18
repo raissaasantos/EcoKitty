@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 8f05be7a8b6fe534f8ba71cf4cd9ea58
+guid: 8b7d08b3dc63feb43b686c38bbb7fbf1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6654531029377168418
-    second: Jumping_Write_0
+      213: 3061804060015645011
+    second: Standing_Greyish_0
+  - first:
+      213: -6295823085816447991
+    second: Standing_Greyish_1
+  - first:
+      213: 2649450514744982618
+    second: Standing_Greyish_2
+  - first:
+      213: -4287554260554055502
+    second: Standing_Greyish_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,27 +148,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<< HEAD
-      name: Box
-=======
-      name: Jumping_Write_0
->>>>>>> ebc2986f7753c4b68c8e3f12a65a659b91cdb8d9
+      name: Standing_Greyish_0
       rect:
         serializedVersion: 2
         x: 43
-        y: 129
+        y: 131
         width: 124
         height: 111
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22437d8c6b4a95c50800000000000000
-      internalID: 6654531029377168418
+      spriteID: 351d4190296bd7a20800000000000000
+      internalID: 3061804060015645011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_Greyish_1
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 131
+        width: 124
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90cf439924eb0a8a0800000000000000
+      internalID: -6295823085816447991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_Greyish_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 8
+        width: 124
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cb95da43db4c420800000000000000
+      internalID: 2649450514744982618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standing_Greyish_3
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 8
+        width: 124
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b08670dd1c8f74c0800000000000000
+      internalID: -4287554260554055502
       vertices: []
       indices: 
       edges: []
@@ -168,7 +239,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e6e3ebe901685e7449355b4275b8063d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -178,11 +249,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-<<<<<<< HEAD
-      Box: 6994204553290746958
-=======
-      Jumping_Write_0: 6654531029377168418
->>>>>>> ebc2986f7753c4b68c8e3f12a65a659b91cdb8d9
+      Standing_Greyish_0: 3061804060015645011
+      Standing_Greyish_1: -6295823085816447991
+      Standing_Greyish_2: 2649450514744982618
+      Standing_Greyish_3: -4287554260554055502
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

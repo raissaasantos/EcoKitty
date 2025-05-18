@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8f05be7a8b6fe534f8ba71cf4cd9ea58
+guid: 3fb6099b9e4637844b3b33f6ccd6dd24
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6654531029377168418
-    second: Jumping_Write_0
+      213: -5321319176091267970
+    second: ChatGPT_Image_23_de_abr._de_2025__00_25_07-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,70 +96,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WindowsStoreApps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-<<<<<<< HEAD
-      name: Box
-=======
-      name: Jumping_Write_0
->>>>>>> ebc2986f7753c4b68c8e3f12a65a659b91cdb8d9
+      name: ChatGPT_Image_23_de_abr._de_2025__00_25_07-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 129
-        width: 124
-        height: 111
+        x: 27
+        y: 96
+        width: 445
+        height: 319
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 22437d8c6b4a95c50800000000000000
-      internalID: 6654531029377168418
+      spriteID: e7c0b942760e626b0800000000000000
+      internalID: -5321319176091267970
       vertices: []
       indices: 
       edges: []
@@ -168,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e6e3ebe901685e7449355b4275b8063d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -178,11 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-<<<<<<< HEAD
-      Box: 6994204553290746958
-=======
-      Jumping_Write_0: 6654531029377168418
->>>>>>> ebc2986f7753c4b68c8e3f12a65a659b91cdb8d9
+      ChatGPT_Image_23_de_abr._de_2025__00_25_07-removebg-preview_0: -5321319176091267970
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
