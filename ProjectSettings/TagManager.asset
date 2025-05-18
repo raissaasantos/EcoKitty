@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Ground
   - Garbage
-  - Trap
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -17,7 +17,7 @@ TagManager:
   - Background
   - Ground
   - Garbage
-  - Trap
+  - Enemy
   - 
   - 
   - 
@@ -56,7 +56,7 @@ TagManager:
   - name: Garbage
     uniqueID: 913810715
     locked: 0
-  - name: Trap
+  - name: Enemy
     uniqueID: 4114290815
     locked: 0
   m_RenderingLayers:
