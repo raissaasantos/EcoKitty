@@ -139,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: garrafa-de-plastico-em-estilo-pixel-art_475147-1410-removebg-preview_0
+      name: PlasticBottle
       rect:
         serializedVersion: 2
         x: 205
@@ -147,7 +147,7 @@ TextureImporter:
         width: 85
         height: 226
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -164,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 17a1082b98f2ec346b93370dc8b5f853
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      garrafa-de-plastico-em-estilo-pixel-art_475147-1410-removebg-preview_0: -5895107164747099207
+      PlasticBottle: -5895107164747099207
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
