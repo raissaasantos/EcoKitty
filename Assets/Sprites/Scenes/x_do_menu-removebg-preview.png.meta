@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 8b7d08b3dc63feb43b686c38bbb7fbf1
+guid: 2dd08aa44fd0a6b4c8995098fa2c5a33
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3061804060015645011
-    second: Standing_Greyish_0
-  - first:
-      213: -6295823085816447991
-    second: Standing_Greyish_1
-  - first:
-      213: 2649450514744982618
-    second: Standing_Greyish_2
-  - first:
-      213: -4287554260554055502
-    second: Standing_Greyish_3
+      213: 3087970404840430563
+    second: x_do_menu-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -148,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Standing_Greyish_0
+      name: x_do_menu-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 131
-        width: 124
-        height: 111
+        x: 61
+        y: 30
+        width: 301
+        height: 279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,74 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 351d4190296bd7a20800000000000000
-      internalID: 3061804060015645011
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Standing_Greyish_1
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 131
-        width: 124
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 90cf439924eb0a8a0800000000000000
-      internalID: -6295823085816447991
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Standing_Greyish_2
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 8
-        width: 124
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a5cb95da43db4c420800000000000000
-      internalID: 2649450514744982618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Standing_Greyish_3
-      rect:
-        serializedVersion: 2
-        x: 233
-        y: 8
-        width: 124
-        height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2b08670dd1c8f74c0800000000000000
-      internalID: -4287554260554055502
+      spriteID: 3ebde61f8bcaada20800000000000000
+      internalID: 3087970404840430563
       vertices: []
       indices: 
       edges: []
@@ -249,10 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Standing_Greyish_0: 3061804060015645011
-      Standing_Greyish_1: -6295823085816447991
-      Standing_Greyish_2: 2649450514744982618
-      Standing_Greyish_3: -4287554260554055502
+      x_do_menu-removebg-preview_0: 3087970404840430563
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

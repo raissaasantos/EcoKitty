@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 3d22a6ee7e354d9458a62b56c939fc6b
+guid: 51a51583bfeeb524d992ac7b92ea617d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5307458824383295389
-    second: Standing_Bicolour_0
-  - first:
-      213: 8840783026462536159
-    second: Standing_Bicolour_1
-  - first:
-      213: 2970331416738142018
-    second: Standing_Bicolour_2
-  - first:
-      213: -507947844457069350
-    second: Standing_Bicolour_3
+      213: 4415793111073700295
+    second: ChatGPT_Image_23_de_abr._de_2025__01_53_57-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -148,89 +139,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Standing_Bicolour_0
+      name: ChatGPT_Image_23_de_abr._de_2025__01_53_57-removebg-preview_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 137
-        width: 122
-        height: 109
+        x: 28
+        y: 127
+        width: 445
+        height: 243
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c4e54a6434cd22c4badb47882f60f862
-      internalID: -936152022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Standing_Bicolour_1
-      rect:
-        serializedVersion: 2
-        x: 185
-        y: 137
-        width: 122
-        height: 109
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f414426d3aaac2469aeaed30ac9d0eb
-      internalID: 53324631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Standing_Bicolour_2
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 12
-        width: 122
-        height: 109
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bebdc69abeaeb1249a59673c46a7e6a6
-      internalID: -1778969955
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Standing_Bicolour_3
-      rect:
-        serializedVersion: 2
-        x: 185
-        y: 12
-        width: 122
-        height: 109
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e295637bc3bd16c4e8f174e6f8adf27a
-      internalID: 976496499
+      spriteID: 7c93a2b407c084d30800000000000000
+      internalID: 4415793111073700295
       vertices: []
       indices: 
       edges: []
@@ -239,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 97018a33960b26a40bde2add4dd8c6c5
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -249,10 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Standing_Bicolour_0: -936152022
-      Standing_Bicolour_1: 53324631
-      Standing_Bicolour_2: -1778969955
-      Standing_Bicolour_3: 976496499
+      ChatGPT_Image_23_de_abr._de_2025__01_53_57-removebg-preview_0: 4415793111073700295
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

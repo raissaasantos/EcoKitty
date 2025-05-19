@@ -142,10 +142,10 @@ TextureImporter:
       name: Box
       rect:
         serializedVersion: 2
-        x: 43
-        y: 129
-        width: 124
-        height: 111
+        x: 87
+        y: 80
+        width: 330
+        height: 340
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

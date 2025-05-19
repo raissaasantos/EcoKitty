@@ -1403,6 +1403,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 969518339}
     m_Modifications:
+    - target: {fileID: 928339017026434489, guid: fbc7be431f564644dab13069b9d2a8f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 928339017026434489, guid: fbc7be431f564644dab13069b9d2a8f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 928339017026434489, guid: fbc7be431f564644dab13069b9d2a8f2, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.71
+      objectReference: {fileID: 0}
     - target: {fileID: 2733978329218022328, guid: fbc7be431f564644dab13069b9d2a8f2, type: 3}
       propertyPath: m_Name
       value: PlasticBag
@@ -1410,6 +1422,22 @@ PrefabInstance:
     - target: {fileID: 2733978329218022328, guid: fbc7be431f564644dab13069b9d2a8f2, type: 3}
       propertyPath: m_TagString
       value: Garbage
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115446661826014974, guid: fbc7be431f564644dab13069b9d2a8f2, type: 3}
+      propertyPath: m_Size.x
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115446661826014974, guid: fbc7be431f564644dab13069b9d2a8f2, type: 3}
+      propertyPath: m_Size.y
+      value: 1.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5115446661826014974, guid: fbc7be431f564644dab13069b9d2a8f2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -915601439035961385, guid: cb839c99ff54c9e418466090571620b7, type: 3}
+    - target: {fileID: 5115446661826014974, guid: fbc7be431f564644dab13069b9d2a8f2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6269105112262076264, guid: fbc7be431f564644dab13069b9d2a8f2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5057,6 +5085,38 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5071215203720862625, guid: a7ce84cd1e0744944814193530fdc655, type: 3}
+      propertyPath: m_Size.x
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071215203720862625, guid: a7ce84cd1e0744944814193530fdc655, type: 3}
+      propertyPath: m_Size.y
+      value: 1.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5071215203720862625, guid: a7ce84cd1e0744944814193530fdc655, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6019271507774316594, guid: dcc783a85fab56646bb0d1f07f9e6efe, type: 3}
+    - target: {fileID: 5071215203720862625, guid: a7ce84cd1e0744944814193530fdc655, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327083345253036200, guid: a7ce84cd1e0744944814193530fdc655, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327083345253036200, guid: a7ce84cd1e0744944814193530fdc655, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327083345253036200, guid: a7ce84cd1e0744944814193530fdc655, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 8327083345253036200, guid: a7ce84cd1e0744944814193530fdc655, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.2
+      objectReference: {fileID: 0}
     - target: {fileID: 8834285593441164474, guid: a7ce84cd1e0744944814193530fdc655, type: 3}
       propertyPath: m_Name
       value: PopCan
@@ -6448,7 +6508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   joystickMovement: {fileID: 1628503233}
   speed: 8
-  jumpForce: 8
+  jumpForce: 5
 --- !u!95 &1016781725
 Animator:
   serializedVersion: 7
@@ -8884,6 +8944,38 @@ PrefabInstance:
     - target: {fileID: 951070959355901759, guid: 472fad9630231b5499c989896eed22c9, type: 3}
       propertyPath: m_TagString
       value: Garbage
+      objectReference: {fileID: 0}
+    - target: {fileID: 7153897164908678153, guid: 472fad9630231b5499c989896eed22c9, type: 3}
+      propertyPath: m_Size.x
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7153897164908678153, guid: 472fad9630231b5499c989896eed22c9, type: 3}
+      propertyPath: m_Size.y
+      value: 1.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7153897164908678153, guid: 472fad9630231b5499c989896eed22c9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6827882913171423546, guid: d37ca7ba7ad943a48b2994f84cbe183a, type: 3}
+    - target: {fileID: 7153897164908678153, guid: 472fad9630231b5499c989896eed22c9, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106234062416172654, guid: 472fad9630231b5499c989896eed22c9, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 1.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106234062416172654, guid: 472fad9630231b5499c989896eed22c9, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106234062416172654, guid: 472fad9630231b5499c989896eed22c9, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 9106234062416172654, guid: 472fad9630231b5499c989896eed22c9, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.68
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12896,7 +12988,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -291.0001, y: -39.00009}
+  m_AnchoredPosition: {x: -294, y: -46}
   m_SizeDelta: {x: 300, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2039668399
@@ -12938,7 +13030,7 @@ MonoBehaviour:
     bottomLeft: {r: 1, g: 1, b: 1, a: 1}
     bottomRight: {r: 1, g: 1, b: 1, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
+  m_spriteAsset: {fileID: 11400000, guid: 8d4b0a2abda20a44f8467e4d81911298, type: 2}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
   m_TextStyleHashCode: -1183493901
