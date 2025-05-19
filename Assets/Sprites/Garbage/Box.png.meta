@@ -139,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jumping_Write_0
+      name: Box
       rect:
         serializedVersion: 2
         x: 43
@@ -147,7 +147,7 @@ TextureImporter:
         width: 124
         height: 111
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -164,7 +164,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e6e3ebe901685e7449355b4275b8063d
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Jumping_Write_0: 6654531029377168418
+      Box: 6994204553290746958
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
