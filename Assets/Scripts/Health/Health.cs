@@ -19,19 +19,31 @@ public class Health : MonoBehaviour
 
         if (currentHealth > 0)
         {
-            //Player hurt
             anim.SetTrigger("hurt");
         }
         else
         {
-            //Player dead
             if (!dead)
             {
-                anim.SetTrigger("die");
                 GetComponent<PlayerMovement>().enabled = false;
+                anim.SetBool("grounded", true); //be grounded before playing dead anim
+                anim.SetTrigger("die");
                 dead = true;
             }
         }
+    }
+
+    public void Respawn()
+    {
+        ResetHealth();
+        anim.ResetTrigger("die");
+        anim.Play("Standing");
+    }
+
+    public void ResetHealth()
+    {
+        currentHealth = startingHealth; 
+        dead = false;
     }
 
 }
