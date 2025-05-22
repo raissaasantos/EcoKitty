@@ -6,11 +6,16 @@ public class Health : MonoBehaviour
     public float currentHealth { get; private set; }
     private Animator anim;
     private bool dead;
+    [Header("Hurt Sound")]
+    [SerializeField] private AudioClip hurtSound;
+    private UIManager uiManager;
 
     private void Awake()
     {
         currentHealth = startingHealth;
         anim = GetComponent<Animator>();
+        uiManager = FindFirstObjectByType<UIManager>();
+
     }
 
     public void TakeDamage(float _damage)
@@ -20,6 +25,7 @@ public class Health : MonoBehaviour
         if (currentHealth > 0)
         {
             anim.SetTrigger("hurt");
+            SoundManager.instance.PlaySound(hurtSound);
         }
         else
         {
@@ -29,21 +35,9 @@ public class Health : MonoBehaviour
                 anim.SetBool("grounded", true); //be grounded before playing dead anim
                 anim.SetTrigger("die");
                 dead = true;
+                uiManager.GameOver();
             }
         }
-    }
-
-    public void Respawn()
-    {
-        ResetHealth();
-        anim.ResetTrigger("die");
-        anim.Play("Standing");
-    }
-
-    public void ResetHealth()
-    {
-        currentHealth = startingHealth; 
-        dead = false;
     }
 
 }

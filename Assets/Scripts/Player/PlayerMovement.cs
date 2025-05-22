@@ -9,13 +9,16 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D body;
     private Animator anim;
     private bool grounded;
+    [Header("SFX")]
+    [SerializeField] private AudioClip jumpSound;
+    [SerializeField] private AudioClip collectingSound;
+
 
     private void Awake()
     {
         //Grab references for rigigbody and animator from object
         body = GetComponent<Rigidbody2D>(); 
         anim = GetComponent<Animator>();
-
     }
 
     private void Update()
@@ -37,11 +40,6 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector3(-1.5f, 1.5f, 1.5f);
         }
 
-        // if (Input.GetKey(KeyCode.Space) && grounded)
-        //{
-       //     Jump();
-        //}
-
         //Set animator parameters
         anim.SetBool("running", horizontalInput != 0);
         anim.SetBool("grounded", grounded);
@@ -49,10 +47,15 @@ public class PlayerMovement : MonoBehaviour
 
     public void Jump()
     {
-        //body.linearVelocity = new Vector2(body.linearVelocity.x, speed);
-        //grounded = false;
+        //verify if PlayerMovement script is enabled or not
+        if (!enabled) 
+        {
+            return; 
+        }
+
         if (grounded)
         {
+            SoundManager.instance.PlaySound(jumpSound);
             body.linearVelocity = new Vector2(body.linearVelocity.x, jumpForce);
             grounded = false;
             anim.SetBool("grounded", grounded);
@@ -71,6 +74,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Garbage"))
         {
+            SoundManager.instance.PlaySound(collectingSound);
             // The object we collided with has the "Garbage" tag
             GarbageCounter.Instance.AddGarbage();
             Destroy(other.gameObject);  
