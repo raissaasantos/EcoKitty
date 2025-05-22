@@ -28,6 +28,7 @@ Seu objetivo é **coletar materiais recicláveis**, **desviar de obstáculos** e
 
 > *![Captura de tela 2025-04-22 211203](https://github.com/user-attachments/assets/0a274d55-27c0-4d30-bcad-9a61eab2e7ac)
 *
+![Screenshot 2025-05-22](image.png)
 
 ---
 
