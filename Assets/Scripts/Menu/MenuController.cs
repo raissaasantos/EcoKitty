@@ -29,4 +29,9 @@ public class MenuController : MonoBehaviour
     {
         SceneManager.LoadScene("TelaInicial"); // Troque "MainMenu" pelo nome exato da sua cena inicial
     }
+    // Método chamado pelo botão "Play"
+    public void PlayGame()
+    {
+        SceneManager.LoadScene("Level01"); // Substitua pelo nome exato da sua cena de jogo
+    }
 }
