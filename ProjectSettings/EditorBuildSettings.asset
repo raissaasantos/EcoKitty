@@ -12,5 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/TelaInicial.unity
     guid: d50bd1a7878e31549a18cec56ef1b412
   m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 924d9baad1083f740a5a5d07130ed5b0, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 189174d9b1df30640a33b754a5622bda, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: d42474f2e0c58b3409fcf28f637d1ec2, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 89786cb23c95c454fb0c02f303f650a4, type: 2}
   m_UseUCBPForAssetBundles: 0
