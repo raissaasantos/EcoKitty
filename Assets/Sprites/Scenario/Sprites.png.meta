@@ -464,7 +464,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TileGround2
+      name: Platform
       rect:
         serializedVersion: 2
         x: 32
@@ -2113,6 +2113,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Platform_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 168
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ab71dea7229dc4799bd12401ad87c9
+      internalID: 1866174727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -2137,6 +2159,8 @@ TextureImporter:
       Plant3: 2018053615
       Plant4: -400365580
       Plant5: -116768579
+      Platform: -1766307359
+      Platform_0: 1866174727
       Stone1: 1746087828
       Stone2: -2145294881
       Stone3: -1019068024
@@ -2175,7 +2199,6 @@ TextureImporter:
       TileGround17: 1746422869
       TileGround18: 747311438
       TileGround19: 1149072864
-      TileGround2: -1766307359
       TileGround20: 330263017
       TileGround21: -1724452651
       TileGround22: -839192656
