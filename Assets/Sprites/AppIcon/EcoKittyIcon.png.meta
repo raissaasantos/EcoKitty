@@ -173,7 +173,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EcoKittyIcon_0: 2653221862079579172
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
