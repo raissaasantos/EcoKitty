@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("SFX")]
     [SerializeField] private AudioClip jumpSound;
     [SerializeField] private AudioClip collectingSound;
+    private UIManager uiManager;
 
 
     private void Awake()

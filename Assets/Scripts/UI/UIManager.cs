@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -10,4 +11,16 @@ public class UIManager : MonoBehaviour
         gameOverScreen.SetActive(true);
         SoundManager.instance.PlaySound(gameOverSound);
     }
+
+    public void LoadLevel2()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Level02");
+    }
+    public void LoadLevel3()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Level03");
+    }
+
 }

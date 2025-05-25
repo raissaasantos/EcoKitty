@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 74ac70e38ecc091468cbcd263ac58281
+guid: 8ca6a79b4338eb5428bd26b228da18bf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5182723133957021694
-    second: "bot\xE3o_reiniciar_jogo-removebg-preview_0"
+      213: 7984071216885043704
+    second: WinButtons_0
+  - first:
+      213: 6345838646565591966
+    second: WinButtons_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +142,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "bot\xE3o_reiniciar_jogo-removebg-preview_0"
+      name: WinButtons_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 340
-        height: 124
+        x: 138
+        y: 225
+        width: 322
+        height: 135
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +157,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 200ea47d4c44318b0800000000000000
-      internalID: -5182723133957021694
+      spriteID: 8f19ad7687e1dce60800000000000000
+      internalID: 7984071216885043704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WinButtons_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 69
+        width: 322
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bdc7a90a2f01850800000000000000
+      internalID: 6345838646565591966
       vertices: []
       indices: 
       edges: []
@@ -173,8 +198,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "bot\xE3o_reiniciar_jogo-removebg-preview_0": -5182723133957021694
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
