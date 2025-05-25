@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class MenuController : MonoBehaviour
 {
     [Header("Referência ao painel do menu")]
-    public GameObject menuUI; // Arraste aqui o painel com os botões do menu
+    public GameObject menuUI; 
 
     // Método chamado pelo botão de abrir/fechar o menu
     public void ToggleMenu()
@@ -27,11 +27,11 @@ public class MenuController : MonoBehaviour
     // Método chamado pelo botão "Sair"
     public void ExitToMainMenu()
     {
-        SceneManager.LoadScene("TelaInicial"); // Troque "MainMenu" pelo nome exato da sua cena inicial
+        SceneManager.LoadScene("TelaInicial"); // 
     }
     // Método chamado pelo botão "Play"
     public void PlayGame()
     {
-        SceneManager.LoadScene("Level01"); // Substitua pelo nome exato da sua cena de jogo
+        SceneManager.LoadScene("Level01"); 
     }
 }
