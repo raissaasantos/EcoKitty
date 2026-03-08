@@ -54,7 +54,7 @@ public class GarbageCounter : MonoBehaviour
        counterText.text = $"<sprite name=\"{spriteName}\"> {collectedGarbageCount.ToString()}";
     }
 
-    // NOVO MÉTODO: Ativa a tela de "próximo nível"
+    
     private void ShowNextLevelScreen()
     {
         if (nextLevelScreen != null)

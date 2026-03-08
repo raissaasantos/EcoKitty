@@ -12,7 +12,6 @@ public class PlayerMovement : MonoBehaviour
     [Header("SFX")]
     [SerializeField] private AudioClip jumpSound;
     [SerializeField] private AudioClip collectingSound;
-    private UIManager uiManager;
 
 
     private void Awake()
@@ -24,10 +23,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        //float horizontalInput = Input.GetAxis("Horizontal");
-        //body.linearVelocity = new Vector2 (horizontalInput * speed, body.linearVelocity.y);
-
-        //Movement with joystick
         float horizontalInput = joystickMovement.Horizontal;
         body.linearVelocity = new Vector2(horizontalInput * speed, body.linearVelocity.y);
 
@@ -76,7 +71,7 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.CompareTag("Garbage"))
         {
             SoundManager.instance.PlaySound(collectingSound);
-            // The object we collided with has the "Garbage" tag
+  
             GarbageCounter.Instance.AddGarbage();
             Destroy(other.gameObject);  
         }
