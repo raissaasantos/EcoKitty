@@ -140,16 +140,20 @@ TextureImporter:
     sprites:
     - serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       name: PopCan
 =======
       name: Jumping_Greyish_0
 >>>>>>> ebc2986f7753c4b68c8e3f12a65a659b91cdb8d9
+=======
+      name: PopCan
+>>>>>>> main
       rect:
         serializedVersion: 2
-        x: 43
-        y: 129
-        width: 124
-        height: 111
+        x: 179
+        y: 141
+        width: 141
+        height: 220
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,10 +183,14 @@ TextureImporter:
       entries: []
     nameFileIdTable:
 <<<<<<< HEAD
+<<<<<<< HEAD
       PopCan: 4836224141292172893
 =======
       Jumping_Greyish_0: 6019271507774316594
 >>>>>>> ebc2986f7753c4b68c8e3f12a65a659b91cdb8d9
+=======
+      PopCan: 4836224141292172893
+>>>>>>> main
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

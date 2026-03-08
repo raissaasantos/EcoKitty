@@ -140,16 +140,20 @@ TextureImporter:
     sprites:
     - serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
       name: Box
 =======
       name: Jumping_Write_0
 >>>>>>> ebc2986f7753c4b68c8e3f12a65a659b91cdb8d9
+=======
+      name: Box
+>>>>>>> main
       rect:
         serializedVersion: 2
-        x: 43
-        y: 129
-        width: 124
-        height: 111
+        x: 87
+        y: 80
+        width: 330
+        height: 340
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,10 +183,14 @@ TextureImporter:
       entries: []
     nameFileIdTable:
 <<<<<<< HEAD
+<<<<<<< HEAD
       Box: 6994204553290746958
 =======
       Jumping_Write_0: 6654531029377168418
 >>>>>>> ebc2986f7753c4b68c8e3f12a65a659b91cdb8d9
+=======
+      Box: 6994204553290746958
+>>>>>>> main
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

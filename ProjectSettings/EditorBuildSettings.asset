@@ -5,6 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Scenes: []
 =======
 <<<<<<< HEAD
@@ -15,10 +16,16 @@ EditorBuildSettings:
   m_Scenes: []
   m_configObjects: {}
 =======
+=======
+>>>>>>> main
   m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TelaInicial.unity
+    guid: d50bd1a7878e31549a18cec56ef1b412
   - enabled: 1
     path: Assets/Levels/Level01.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+<<<<<<< HEAD
 >>>>>>> ebc2986f7753c4b68c8e3f12a65a659b91cdb8d9
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 44c4a80a0d656694485cdb1f52b54e61, type: 2}
@@ -31,4 +38,17 @@ EditorBuildSettings:
 >>>>>>> 637cea9b559ecadecff0f69fafbb51441b2a5394
 >>>>>>> f8c02d8dc90951e1648943cbe4016c546925b3f0
 >>>>>>> ebc2986f7753c4b68c8e3f12a65a659b91cdb8d9
+=======
+  - enabled: 1
+    path: Assets/Levels/Level02.unity
+    guid: b77f2f351fe96b544b2f2175af122056
+  - enabled: 1
+    path: Assets/Levels/Level03.unity
+    guid: 43d399c660253c8429389c6af59fba1b
+  m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 924d9baad1083f740a5a5d07130ed5b0, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 189174d9b1df30640a33b754a5622bda, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: d42474f2e0c58b3409fcf28f637d1ec2, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 89786cb23c95c454fb0c02f303f650a4, type: 2}
+>>>>>>> main
   m_UseUCBPForAssetBundles: 0
