@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpForce = 10f;
     private Rigidbody2D body;
     private Animator anim;
-    private bool grounded;
+    private bool grounded = true;
     [Header("SFX")]
     [SerializeField] private AudioClip jumpSound;
     [SerializeField] private AudioClip collectingSound;
@@ -71,8 +71,9 @@ public class PlayerMovement : MonoBehaviour
         if (other.gameObject.CompareTag("Garbage"))
         {
             SoundManager.instance.PlaySound(collectingSound);
-  
-            GarbageCounter.Instance.AddGarbage();
+
+            //GarbageCounter.Instance.AddGarbage();
+            ScoreManager.Instance.AddGarbage();
             Destroy(other.gameObject);  
         }
     }
