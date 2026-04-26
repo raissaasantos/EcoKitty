@@ -4,10 +4,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public float totalTime = 60f;
-    public float currentTime;
-
-    public bool timerRunning = true;
+    public float currentTime = 60f;
+    private bool timerRunning = true;
 
     private void Awake()
     {
@@ -15,11 +13,6 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
-
-            currentTime = totalTime;
-
-            // Carrega o nome salvo
-            PlayerData.LoadName();
         }
         else
         {
@@ -27,21 +20,18 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void Update()
+    void Update()
     {
-        if (timerRunning)
+        if (!timerRunning) return;
+
+        currentTime -= Time.deltaTime;
+
+        if (currentTime <= 0)
         {
-            currentTime -= Time.deltaTime;
+            currentTime = 0;
+            timerRunning = false;
 
-            if (currentTime <= 0)
-            {
-                currentTime = 0;
-                timerRunning = false;
-
-                Debug.Log("Tempo acabou!");
-
-                // Aqui você pode chamar Game Over futuramente
-            }
+            FindFirstObjectByType<UIManager>()?.GameOver();
         }
     }
 
@@ -54,4 +44,56 @@ public class GameManager : MonoBehaviour
     {
         timerRunning = true;
     }
+
+    public void ResetTimer()
+    {
+        currentTime = 60f;
+        timerRunning = true;
+    }
 }
+
+/*using UnityEngine;
+
+public class GameManager : MonoBehaviour
+{
+    public static GameManager Instance;
+
+    public float currentTime = 60f;
+    private bool timerRunning = true;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
+    void Update()
+    {
+        if (!timerRunning) return;
+
+        currentTime -= Time.deltaTime;
+
+        if (currentTime <= 0)
+        {
+            currentTime = 0;
+            timerRunning = false;
+
+            FindFirstObjectByType<UIManager>().GameOver();
+        }
+    }
+
+    public void PauseTimer()
+    {
+        timerRunning = false;
+    }
+
+    public void ResumeTimer()
+    {
+        timerRunning = true;
+    }
+
+    public void ResetTimer()
+    {
+        currentTime = 60f;
+        timerRunning = true;
+    }
+}*/

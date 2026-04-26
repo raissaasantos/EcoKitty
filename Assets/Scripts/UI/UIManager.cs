@@ -10,10 +10,23 @@ public class UIManager : MonoBehaviour
 
     public void GameOver()
     {
+
+        if (gameOverScreen.activeSelf) return;
+
         gameOverScreen.SetActive(true);
+
+        gameOverScreen.GetComponent<GameOverInfoUI>().UpdateInfo();
+
         SoundManager.instance.PlaySound(gameOverSound);
 
         GameManager.Instance.PauseTimer();
+
+        /*if (gameOverScreen.activeSelf) return; //so it doesnt open lots of times
+
+        gameOverScreen.SetActive(true);
+        SoundManager.instance.PlaySound(gameOverSound);
+
+        GameManager.Instance.PauseTimer();*/
     }
 
     public void LoadLevel2()

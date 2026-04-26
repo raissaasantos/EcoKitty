@@ -72,8 +72,9 @@ public class PlayerMovement : MonoBehaviour
         {
             SoundManager.instance.PlaySound(collectingSound);
 
-            //GarbageCounter.Instance.AddGarbage();
-            ScoreManager.Instance.AddGarbage();
+            GarbageCounter.Instance.AddGarbage();
+            ScoreManager.Instance.AddPoints(10);
+
             Destroy(other.gameObject);  
         }
     }

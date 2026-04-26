@@ -26,11 +26,11 @@ public class APIManager : MonoBehaviour
 
     IEnumerator PostScore()
     {
-        string url = "URL_DA_API_AQUI";
+        string url = "http://13.218.217.109:8891/v1/api/ecoKitty/";
 
         WWWForm form = new WWWForm();
         form.AddField("name", PlayerData.playerName);
-        form.AddField("score", ScoreManager.Instance.totalGarbage);
+        form.AddField("score", ScoreManager.Instance.totalScore);
 
         UnityWebRequest request = UnityWebRequest.Post(url, form);
 
@@ -38,11 +38,11 @@ public class APIManager : MonoBehaviour
 
         if (request.result == UnityWebRequest.Result.Success)
         {
-            Debug.Log("Score enviado!");
+            Debug.Log("Score enviado com sucesso!");
         }
         else
         {
-            Debug.Log("Erro: " + request.error);
+            Debug.LogError("Erro ao enviar score: " + request.error);
         }
     }
 }

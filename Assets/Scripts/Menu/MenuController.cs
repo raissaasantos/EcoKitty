@@ -9,18 +9,37 @@ public class MenuController : MonoBehaviour
     [Header("Painel para digitar nome")]
     public GameObject namePanel;
 
-    public void ToggleMenu()
+    /*public void ToggleMenu()
     {
         menuUI.SetActive(!menuUI.activeSelf);
+    }*/
+
+    public void ToggleMenu()
+    {
+        bool isOpen = !menuUI.activeSelf;
+
+        menuUI.SetActive(isOpen);
+
+        if (isOpen)
+            GameManager.Instance.PauseTimer();
+        else
+            GameManager.Instance.ResumeTimer();
     }
+
+    /*public void ResumeGame()
+    {
+        menuUI.SetActive(false);
+    }*/
 
     public void ResumeGame()
     {
         menuUI.SetActive(false);
+        GameManager.Instance.ResumeTimer();
     }
 
     public void RestartGame()
     {
+        GameManager.Instance.ResetTimer();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -29,9 +48,13 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene("TelaInicial");
     }
 
-    // BOTÃO JOGAR
     public void PlayGame()
-    {
+    {   
+        //Always ask player's name
+        namePanel.SetActive(true);
+
+        /*
+         * Ask player's name once
         PlayerData.LoadName();
 
         if (PlayerData.playerName == "")
@@ -42,52 +65,12 @@ public class MenuController : MonoBehaviour
         {
             SceneManager.LoadScene("Level01");
         }
+        */
     }
 
-    // BOTÃO CONFIRMAR NOME
     public void ConfirmName()
     {
+        GameManager.Instance.ResetTimer();
         SceneManager.LoadScene("Level01");
     }
 }
-
-
-
-
-/*using UnityEngine;
-using UnityEngine.SceneManagement;
-
-public class MenuController : MonoBehaviour
-{
-    [Header("Referência ao painel do menu")]
-    public GameObject menuUI; 
-
-    // Método chamado pelo botão de abrir/fechar o menu
-    public void ToggleMenu()
-    {
-        menuUI.SetActive(!menuUI.activeSelf); // Alterna o menu
-    }
-
-    // Método chamado pelo botão "Continuar Jogo"
-    public void ResumeGame()
-    {
-        menuUI.SetActive(false); // Fecha o menu
-    }
-
-    // Método chamado pelo botão "Reiniciar Jogo"
-    public void RestartGame()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Recarrega a cena atual
-    }
-
-    // Método chamado pelo botão "Sair"
-    public void ExitToMainMenu()
-    {
-        SceneManager.LoadScene("TelaInicial"); // 
-    }
-    // Método chamado pelo botão "Play"
-    public void PlayGame()
-    {
-        SceneManager.LoadScene("Level01"); 
-    }
-}*/
