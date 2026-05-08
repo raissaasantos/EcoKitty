@@ -1,4 +1,5 @@
 # ninja log v5
+<<<<<<< HEAD
 66	859	7999103320073473	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	f3609905db75f3db
 861	1022	7999103321747685	C:/Users/Raissa/EcoKitty/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/36nt2l52/obj/arm64-v8a/libswappywrapper.so	eaff913ef6758819
 41	3547	7999103346928727	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	3d8727e5460eada8
@@ -10,3 +11,16 @@
 25	3860	7999103350004861	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	54eb3e4e5377cfce
 1	3923	7999103350353120	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	2d21297d114c474c
 3924	4272	7999103354084304	C:/Users/Raissa/EcoKitty/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/36nt2l52/obj/arm64-v8a/libgame.so	8f914c271242da89
+=======
+67	1069	7999141174405718	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	f3609905db75f3db
+1071	1399	7999141178434862	C:/Users/Raissa/EcoKitty/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/36nt2l52/obj/arm64-v8a/libswappywrapper.so	eaff913ef6758819
+25	3713	7999141201484337	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	3d8727e5460eada8
+34	3733	7999141201641074	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	84a6c3fa0c3b5c64
+13	3760	7999141201945964	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	6378148c227001b3
+41	3762	7999141201976661	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	3b4307eb23c159a
+7	3806	7999141202391033	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	3a3a4a00fdcc5b4f
+45	3861	7999141202500025	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	729297af843137d1
+19	3956	7999141203911022	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	54eb3e4e5377cfce
+1	4046	7999141204730419	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	2d21297d114c474c
+4047	4350	7999141207949915	C:/Users/Raissa/EcoKitty/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/36nt2l52/obj/arm64-v8a/libgame.so	8f914c271242da89
+>>>>>>> 3e442f7f6f4549c4b1bfaa71dddfa1cfd1884d95
