@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void Update()
+    /*void Update()
     {
         if (!timerRunning) return;
 
@@ -32,6 +32,32 @@ public class GameManager : MonoBehaviour
             timerRunning = false;
 
             FindFirstObjectByType<UIManager>()?.GameOver();
+        }
+    }*/
+
+    void Update()
+    {
+        if (!timerRunning) return;
+
+        currentTime -= Time.deltaTime;
+
+        if (currentTime <= 0)
+        {
+            currentTime = 0;
+            timerRunning = false;
+
+            Debug.Log("TEMPO ACABOU");
+
+            UIManager ui = FindFirstObjectByType<UIManager>();
+
+            if (ui != null)
+            {
+                ui.GameOver();
+            }
+            else
+            {
+                Debug.LogError("UIManager NÃO encontrado!");
+            }
         }
     }
 
