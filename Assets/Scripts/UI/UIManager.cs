@@ -15,8 +15,6 @@ public class UIManager : MonoBehaviour
 
         gameOverScreen.SetActive(true);
 
-        gameOverScreen.GetComponent<GameOverInfoUI>().UpdateInfo();
-
         SoundManager.instance.PlaySound(gameOverSound);
 
         GameManager.Instance.PauseTimer();
