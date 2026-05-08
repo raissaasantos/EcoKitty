@@ -139,7 +139,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
       name: PlasticBag
+=======
+      name: Jumping_Grey_0
+>>>>>>> ebc2986f7753c4b68c8e3f12a65a659b91cdb8d9
+=======
+      name: PlasticBag
+>>>>>>> main
       rect:
         serializedVersion: 2
         x: 164
@@ -174,7 +182,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< HEAD
+<<<<<<< HEAD
       PlasticBag: 4860508517914281758
+=======
+      Jumping_Grey_0: -915601439035961385
+>>>>>>> ebc2986f7753c4b68c8e3f12a65a659b91cdb8d9
+=======
+      PlasticBag: 4860508517914281758
+>>>>>>> main
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

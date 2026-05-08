@@ -139,7 +139,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD
       name: GlassBottle
+=======
+      name: Jumping_Black_0
+>>>>>>> ebc2986f7753c4b68c8e3f12a65a659b91cdb8d9
+=======
+      name: GlassBottle
+>>>>>>> main
       rect:
         serializedVersion: 2
         x: 201
@@ -174,7 +182,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< HEAD
+<<<<<<< HEAD
       GlassBottle: 1787744630682949256
+=======
+      Jumping_Black_0: 6827882913171423546
+>>>>>>> ebc2986f7753c4b68c8e3f12a65a659b91cdb8d9
+=======
+      GlassBottle: 1787744630682949256
+>>>>>>> main
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
