@@ -15,11 +15,21 @@ public class UIManager : MonoBehaviour
 
         gameOverScreen.SetActive(true);
 
+        SoundManager.instance.PlaySound(gameOverSound);
+
+        GameManager.Instance.PauseTimer();
+
+        APIManager.Instance.SendScore();
+
+        /*if (gameOverScreen.activeSelf) return;
+
+        gameOverScreen.SetActive(true);
+
         gameOverScreen.GetComponent<GameOverInfoUI>().UpdateInfo();
 
         SoundManager.instance.PlaySound(gameOverSound);
 
-        GameManager.Instance.PauseTimer();
+        GameManager.Instance.PauseTimer();*/
 
         /*if (gameOverScreen.activeSelf) return; //so it doesnt open lots of times
 
